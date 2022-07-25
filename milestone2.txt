@@ -1,0 +1,99 @@
+<!DOCTYPE>
+<Html>  
+<head>   
+<title>  
+Registration Page  
+</title>
+<big><p>Registration of Student for an Online TCS EXAM.</p>  
+</head>
+<body>   
+<form>  
+<p>Details</p>
+<label> Firstname: </label>         
+<input type="text" name="firstname" size="15"/> <br> <br>  
+<label> Middlename: </label>     
+<input type="text" name="middlename" size="15"/> <br> <br>  
+<label> Lastname: </label>         
+<input type="text" name="lastname" size="15"/> <br> <br> 
+<label> Roll number: </label>
+<input type="text" name="rollnumber" size="15"/> <br> <br>
+<label>  
+Gender :  
+</label><br>  
+<input type="radio" name="male"/> Male <br>  
+<input type="radio" name="female"/> Female <br>  
+<input type="radio" name="other"/> Other  
+<br>  
+<br> 
+<label> 
+Phone number :  
+</label>  
+<input type="text" name="country code"  value="+91" size="2"/>   
+<input type="text" name="phone" size="10"/> <br> <br>
+<style>
+ body{
+  background-image: url('image2.jpeg');
+}
+</style>
+
+
+<p> Parent Details</p>   
+ <label> Fathername</label>
+<input type="text" name="fathername" size="15"/> <br> <br>
+<label> Mothername: </label> 
+<input type="text" name="mothername" size="15"/> <br> <br>
+<label>
+Phone number :  
+</label>  
+<input type="text" name="country code"  value="+91" size="2"/>   
+<input type="text" name="phone" size="10"/> <br> <br>
+
+<label> Aadhar number</label>
+ <input type="text" name="aadharnumber" size="15"/> <br> <br> 
+ Address  
+<br>  
+<textarea cols="80" rows="5" value="address">  
+</textarea>  
+<br> <br> 
+ <label>
+Qualification: 
+</label><br>
+<input type="radio" name="Xth pass"/> Xthpass <br>  
+<input type="radio" name="XIIth pass"/> XIth pass <br>  
+<input type="radio" name="BTECH"/> btech <br>
+<input type="radio" name="other"/> other <br>  
+
+<label>   
+Courses completed :  
+</label>   
+<select>  
+<option value="Course">Course</option>  
+<option value="BCA">BCA</option>  
+<option value="BBA">BBA</option>  
+<option value="B.Tech">B.Tech</option>  
+<option value="MBA">MBA</option>  
+<option value="MCA">MCA</option>  
+<option value="M.Tech">M.Tech</option>  
+</select>   
+<br>  
+<br>
+<label>
+Xth CGPA: 
+</label> 
+<input type="text" name="cgpa" size="15"/> <br>
+<label>
+XIIth CGPA:
+</label>
+<input type="text" name="cgpa" size="15"/> <br>
+<p> Upload Resume </p>
+<form>
+<label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile" />
+        <input type="submit"/>
+		</form>
+		<p> Upload Image </p>
+		<form action="/action_page.php">
+  <input type="file" id="myFile" name="filename">
+  <input type="submit"></big>
+</form>
+</body>
